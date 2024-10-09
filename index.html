@@ -1,83 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basics-add-on</title>
     <style>
-        .container {
-            background-image: linear-gradient(90deg, #885DF1 0%, #F65282 100%);
-            color: #fff;
-            margin: 0 auto;
-            padding: 20px; 
-        }
-        h1 {
-            font-size: 60px;
-            text-align: center;
-        }
-        h2 {
-            font-size: 30px;
-            text-align: center;
-        }
-        p {
-            font-size: 20px;
-            text-align: center;
-        }
-        img {
-            max-width: 100%; 
-            height: 500px; 
-            border-radius: 10px; 
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-            width: 300px;
-            align-items: self-start;
-        }
-        .image-4 {
-            margin: 0 auto;
-            display: block;
-            align-content: center;
-        }
-        
-        .image-gallery {
-            display: flex;
-            flex-wrap: wrap; 
-            justify-content: center;
-        }
-        button {
-            justify-content: center;
-            text-align: center;
-            border-radius: 10px;
-            color: #fff;
-            background-color: rgba(238, 18, 238, 0.451);
-            font-size: 18px;
-            padding: 10px 20px;
-            margin: 10px;
-            display: block; 
-            margin-left: auto; 
-            margin-right: auto;
-        }
-        footer {
-            background-image: linear-gradient(90deg, #885DF1 0%, #F65282 100%);
-            color: #fff;
-            text-align: center;
-            padding: 10px 0; 
-        }
+      .container {
+        background-image: linear-gradient(90deg, #885df1 0%, #f65282 100%);
+        color: #fff;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 60px;
+        text-align: center;
+      }
+      h2 {
+        font-size: 30px;
+        text-align: center;
+      }
+      p {
+        font-size: 20px;
+        text-align: center;
+      }
+      img {
+        max-width: 100%;
+        height: 500px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        width: 300px;
+        align-items: self-start;
+      }
+      img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      }
+      .image-4 {
+        margin: 0 auto;
+        display: block;
+        align-content: center;
+      }
+
+      .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      button {
+        justify-content: center;
+        text-align: center;
+        border-radius: 10px;
+        color: #fff;
+        background-color: rgba(238, 18, 238, 0.451);
+        font-size: 18px;
+        padding: 10px 20px;
+        margin: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      footer {
+        background-image: linear-gradient(90deg, #885df1 0%, #f65282 100%);
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Coding!</h1>
-        <h2>My favorite hobby</h2>
-        <p>Coding as a hobby can be incredibly rewarding and fulfilling because it allows for constant learning, creativity, and problem-solving. For those passionate about technology, like you, it offers the opportunity to turn ideas into reality, whether it’s building websites, creating apps, or automating tasks. It’s a hobby that encourages you to think critically, explore new solutions, and continually challenge yourself. Plus, coding gives a sense of accomplishment when you successfully implement a feature or fix a bug.</p>
-        <img src="https://i.pinimg.com/474x/75/7f/9d/757f9d2a4cfedc6094d633b9ba6b4b8e.jpg" alt="coding-1">
-        <img src="https://i.pinimg.com/474x/e9/2f/8c/e92f8cd2d1cae2bec9950a3aea9b4b11.jpg" alt="coding-2">
-        <img src="https://i.pinimg.com/474x/d6/50/2d/d6502d62f6fad12ffd3dbff7dff5c89e.jpg" alt="coding-3">
-        <img src="https://i.pinimg.com/736x/9b/28/88/9b2888bbb9b2c6ed221cfe626856b7da.jpg" alt="coding-4">
-           <a href="https://www.shecodes.io/workshops">
+      <h1>Coding!</h1>
+      <h2>My favorite hobby</h2>
+      <p>
+        Coding as a hobby can be incredibly rewarding and fulfilling because it
+        allows for constant learning, creativity, and problem-solving. For those
+        passionate about technology, like you, it offers the opportunity to turn
+        ideas into reality, whether it’s building websites, creating apps, or
+        automating tasks. It’s a hobby that encourages you to think critically,
+        explore new solutions, and continually challenge yourself. Plus, coding
+        gives a sense of accomplishment when you successfully implement a
+        feature or fix a bug.
+      </p>
+      <img
+        src="https://i.pinimg.com/474x/75/7f/9d/757f9d2a4cfedc6094d633b9ba6b4b8e.jpg"
+        alt="coding-1"
+      />
+      <img
+        src="https://i.pinimg.com/474x/e9/2f/8c/e92f8cd2d1cae2bec9950a3aea9b4b11.jpg"
+        alt="coding-2"
+      />
+      <img
+        src="https://i.pinimg.com/474x/d6/50/2d/d6502d62f6fad12ffd3dbff7dff5c89e.jpg"
+        alt="coding-3"
+      />
+      <img
+        src="https://i.pinimg.com/736x/9b/28/88/9b2888bbb9b2c6ed221cfe626856b7da.jpg"
+        alt="coding-4"
+      />
+      <a href="https://www.shecodes.io/workshops">
         <button>Learn coding!</button>
-    </a>
-    <footer>
-        Coded With 💜 by <a href="https://www.shecodes.io/workshops" target="_blank">Mpho Mtlomelo</a>
-    </footer>
+      </a>
+      <footer>
+        Coded With 💜 by
+        <a href="https://www.shecodes.io/workshops" target="_blank"
+          >Mpho Mtlomelo</a
+        >
+      </footer>
     </div>
-</body>
+  </body>
 </html>
